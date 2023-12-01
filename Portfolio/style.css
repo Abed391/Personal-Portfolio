@@ -235,7 +235,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid hsl(341, 100%, 50%);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -378,4 +378,9 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+}
+#msg{
+    color: blue;
+    margin-top: -50px;
+    display: block;
 }
